@@ -1,0 +1,32 @@
+[package]
+name = "comprehensive_rust"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+[[bin]]
+name = "move-semantics"
+path = "src/move-semantics.rs"
+
+[[bin]]
+name = "moves-in-function-calls"
+path = "src/moves-in-function-calls.rs"
+
+[[bin]]
+name = "copying"
+path = "src/copying.rs"
+
+[[bin]]
+name = "lifetimes-function-calls"
+path = "src/lifetimes-function-calls.rs"
+
+[[bin]]
+name = "lifetimes-structs"
+path = "src/lifetimes-structs.rs"
+
+[[bin]]
+name = "library"
+path = "src/exercises/library.rs"
