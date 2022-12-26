@@ -9,24 +9,76 @@ edition = "2021"
 
 [[bin]]
 name = "move-semantics"
-path = "src/move-semantics.rs"
+path = "src/day1/move-semantics.rs"
 
 [[bin]]
 name = "moves-in-function-calls"
-path = "src/moves-in-function-calls.rs"
+path = "src/day1/moves-in-function-calls.rs"
 
 [[bin]]
 name = "copying"
-path = "src/copying.rs"
+path = "src/day1/copying.rs"
 
 [[bin]]
 name = "lifetimes-function-calls"
-path = "src/lifetimes-function-calls.rs"
+path = "src/day1/lifetimes-function-calls.rs"
 
 [[bin]]
 name = "lifetimes-structs"
-path = "src/lifetimes-structs.rs"
+path = "src/day1/lifetimes-structs.rs"
 
 [[bin]]
 name = "library"
-path = "src/exercises/library.rs"
+path = "src/day1/exercises/library.rs"
+
+[[bin]]
+name = "iterators-ownership"
+path = "src/day1/exercises/iterators-ownership.rs"
+
+[[bin]]
+name = "structs"
+path = "src/day2/structs.rs"
+
+[[bin]]
+name = "tuple-structs"
+path = "src/day2/tuple-structs.rs"
+
+[[bin]]
+name = "field-shorthand"
+path = "src/day2/field-shorthand.rs"
+
+[[bin]]
+name = "enums"
+path = "src/day2/enums.rs"
+
+[[bin]]
+name = "variant-payloads"
+path = "src/day2/variant-payloads.rs"
+
+[[bin]]
+name = "enum_sizes"
+path = "src/day2/enum_sizes.rs"
+
+[[bin]]
+name = "receivers"
+path = "src/day2/receivers.rs"
+
+[[bin]]
+name = "pattern-matching"
+path = "src/day2/pattern-matching.rs"
+
+[[bin]]
+name = "destructure-enum"
+path = "src/day2/destructure-enum.rs"
+
+[[bin]]
+name = "destructure-struct"
+path = "src/day2/destructure-struct.rs"
+
+[[bin]]
+name = "destructure-arrays"
+path = "src/day2/destructure-arrays.rs"
+
+[[bin]]
+name = "match-guards"
+path = "src/day2/match-guards.rs"
