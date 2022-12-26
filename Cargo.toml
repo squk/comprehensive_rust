@@ -82,3 +82,11 @@ path = "src/day2/destructure-arrays.rs"
 [[bin]]
 name = "match-guards"
 path = "src/day2/match-guards.rs"
+
+[[bin]]
+name = "health-statistics"
+path = "src/day2/exercises/health-statistics.rs"
+
+[[bin]]
+name = "points-polygons"
+path = "src/day2/exercises/points-polygons.rs"
